@@ -1,0 +1,61 @@
+a[href*="dQw4w9WgXcQ"] {
+    background-color: rgba(255,0,0,0.5);
+    animation: alert 0.15s alternate infinite;
+}
+
+a[href*="dQw4w9WgXcQ"]:before {
+    position: fixed !important;
+    display: block;
+    content: "⚠️ WARNING: IMMINENT DANGER OF RICKROLLS!";
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    padding: 20px !important;
+    padding-top: 18px !important;
+    padding-bottom: 19px !important;
+    bottom: -60px !important;
+    left: 50% !important;
+    margin-left: -200px !important;
+    color: white !important;
+    /*background-color: rgba(255,0,0,0.3) !important;*/
+	background-color: #c1272d !important;
+    border-radius: 4px !important;
+    z-index: 10000 !important;
+    cursor: default !important;
+    animation: remove 5s forwards 1 !important;
+    animation-delay:1s !important;
+}
+
+@keyframes alert{
+   to{background-color: rgba(255,0,0,0.3);}
+}
+
+@keyframes remove {
+  0% {
+    bottom: -60px !important;
+    box-shadow: 5px 15px 15px rgba(0,0,0,0.2) !important;
+  }
+  8% {
+    bottom: 55px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2) !important;
+  }
+  10% {
+    bottom: 50px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2) !important;
+  }
+  90% {
+    bottom: 50px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2) !important;
+  }
+  92% {
+    bottom: 55px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2) !important;
+  }
+  99% {
+    bottom: -60px;
+    box-shadow: 5px 15px 15px rgba(0,0,0,0.2) !important;
+	opacity:1 !important;
+  }
+  100%{
+	  opacity:0 !important;
+  }
+}
